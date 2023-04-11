@@ -10,8 +10,8 @@ st.title('Stock forecast dashboard')
 
       
 # ------ layout setting---------------------------
-#window_selection_c = st.sidebar.container() # create an empty container in the sidebar
-#window_selection_c.markdown("## Insights") # add a title to the sidebar container
+window_selection_c = st.sidebar.container() # create an empty container in the sidebar
+window_selection_c.markdown("## Insights") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns for start and end date
 
 # ----------Time window selection-----------------
